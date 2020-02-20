@@ -55,7 +55,13 @@ while i < 10:
     kek
     
 
-
+# Liste
 ```python
-
+# liste de dictionnaire
+liste = [
+        {"prénom" : "romain", "nom" : "dusson"},
+        {"prénom" : "cindy", "nom" : "ballandras"},
+        {"prénom" : "chaton", "nom" : "miaou"}
+        ]
+liste.sort(key= lambda x: x["nom"]) # Trier une liste par la valeur d'un dictionnaire
 ```
