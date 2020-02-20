@@ -77,7 +77,8 @@ liste.sort(key= lambda x: x["nom"]) # Trier une liste par la valeur d'un diction
 ```
 ### Compréhension de liste
 [action à faire | pour ces élément | si tel condition]
-
+[    n * 2      | for n in maListe |     if n > 3    ]
+ 
 ```python
 maListe = [1, 2, 3, 4, 5]
 len(maListe) # longueur de la liste
