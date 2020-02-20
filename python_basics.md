@@ -55,13 +55,24 @@ while i < 10:
     kek
     
 
-# Liste
+# Liste / tuple / dictionnaire
 ```python
+liste = []
+tuple = ()
+dico = {}
+
 # liste de dictionnaire
 liste = [
         {"prénom" : "romain", "nom" : "dupont"},
         {"prénom" : "cindy", "nom" : "binase"},
         {"prénom" : "chaton", "nom" : "miaou"}
         ]
+        
+liste.append("test") # ajoute un élément à la fin de la liste
+liste.pop(1) # supprime un élément de la liste par son index
+liste.insert(1, "saluut") # insert un élément à l'index spécifié en paramètre
+print(liste.count("saluut")) # compte le nombre d'éléments spécifié en paramètre        
 liste.sort(key= lambda x: x["nom"]) # Trier une liste par la valeur d'un dictionnaire
+
+
 ```
