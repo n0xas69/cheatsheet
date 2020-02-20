@@ -85,6 +85,7 @@ len(maListe) # longueur de la liste
 maListe2 = [n * 2 for n in maListe] # multiplie chaque élément de la liste par deux
 maListe3 = [n * 2 for n in maListe if n > 3] # multiplie les éléments supérieur à 3
 ```
+### Dictionnaires
 ```python
 dico = {"prénom" : "romain", "nom" : "dupont", "age" : 24}
 print(dico.keys()) # affiche les clés
