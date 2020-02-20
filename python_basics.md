@@ -75,4 +75,9 @@ print(liste.count("saluut")) # compte le nombre d'éléments spécifié en param
 liste.sort(key= lambda x: x["nom"]) # Trier une liste par la valeur d'un dictionnaire
 
 
+dico = {"prénom" : "romain", "nom" : "dupont", "age" : 24}
+print(dico.keys()) # affiche les clés
+print(dico.values()) # affiche les valeurs
+print(dico.items()) # affiche les pairs
+
 ```
