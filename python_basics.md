@@ -74,6 +74,16 @@ liste.insert(1, "saluut") # insert un élément à l'index spécifié en paramè
 print(liste.count("saluut")) # compte le nombre d'éléments spécifié en paramètre        
 liste.sort(key= lambda x: x["nom"]) # Trier une liste par la valeur d'un dictionnaire
 
+```
+### Compréhension de liste
+[action à faire | pour ces élément | si tel condition]
+
+```python
+maListe = [1, 2, 3, 4, 5]
+len(maListe) # longueur de la liste
+maListe2 = [n * 2 for n in maListe] # multiplie chaque élément de la liste par deux
+maListe3 = [n * 2 for n in maListe if n > 3] # multiplie les éléments supérieur à 3
+
 
 dico = {"prénom" : "romain", "nom" : "dupont", "age" : 24}
 print(dico.keys()) # affiche les clés
