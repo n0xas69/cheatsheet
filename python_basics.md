@@ -83,6 +83,7 @@ value_dico = liste[0].values() # accède au valeurs du dictionnaire situé à l'
 ```python
 maListe = [1, 2, 3, 4, 5]
 len(maListe) # longueur de la liste
+liste.remove(2) # Supprime un élément par sa valeur
 maListe2 = [n * 2 for n in maListe] # multiplie chaque élément de la liste par deux
 maListe3 = [n * 2 for n in maListe if n > 3] # multiplie les éléments supérieur à 3
 ```
