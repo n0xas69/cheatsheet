@@ -59,8 +59,8 @@ while i < 10:
 ```python
 # liste de dictionnaire
 liste = [
-        {"prénom" : "romain", "nom" : "dusson"},
-        {"prénom" : "cindy", "nom" : "ballandras"},
+        {"prénom" : "romain", "nom" : "dupont"},
+        {"prénom" : "cindy", "nom" : "binase"},
         {"prénom" : "chaton", "nom" : "miaou"}
         ]
 liste.sort(key= lambda x: x["nom"]) # Trier une liste par la valeur d'un dictionnaire
