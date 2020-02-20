@@ -8,4 +8,4 @@ path = "C:\\dev\\test\\test"
 file = "test.py"
 
 os.listdir(path) # Liste les dossiers et les fichier du path
-os.path.join(path, file) # joind le path et le nom du fichier pour faire un chemin complet
+os.path.join(path, file) # join le path et le nom du fichier pour faire un chemin complet
