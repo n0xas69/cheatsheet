@@ -73,6 +73,7 @@ liste.pop(1) # supprime un élément de la liste par son index
 liste.insert(1, "saluut") # insert un élément à l'index spécifié en paramètre
 print(liste.count("saluut")) # compte le nombre d'éléments spécifié en paramètre        
 liste.sort(key= lambda x: x["nom"]) # Trier une liste par la valeur d'un dictionnaire
+value_dico = liste[0].values() # accède au valeurs du dictionnaire situé à l'index 0 de la liste, renvoi un type dict_values
 
 ```
 ### Compréhension de liste
