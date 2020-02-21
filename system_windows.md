@@ -24,12 +24,17 @@ def search_ext(src, ext):
                 path = os.path.join(src, f)
                 file_ext = path.split(".")
                 try:
-                        if file_ext[1] == ext:
-                                print(path)
-                
+                        if os.path.isfile(path) is True:
+                                if file_ext[1] == ext:
+                                        print(path)
+                        
+                        else:
+                                search_ext(path, ext)
                 except IndexError:
                         pass
+                except PermissionError:
+                        print(f"Accès refusé {src}")
 
 
-search_ext("C:\\Program Files\\Windows Defender", "exe")
+search_ext(r"C:\Program Files", "txt")
 ```
