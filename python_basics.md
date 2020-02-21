@@ -76,11 +76,13 @@ liste.sort(key= lambda x: x["nom"]) # Trier une liste par la valeur d'un diction
 value_dico = liste[0].values() # accède au valeurs du dictionnaire situé à l'index 0 de la liste, renvoi un type dict_values
 
 ```
+ ![](https://automatetheboringstuff.com/2e/images/000090.jpg)
+ 
 ### Compréhension de liste
 [action à faire | pour ces élément | si tel condition]  
 [    n * 2      | for n in maListe |     if n > 3    ]
  
- ![](https://automatetheboringstuff.com/2e/images/000090.jpg)
+
  
 ```python
 maListe = [1, 2, 3, 4, 5]
