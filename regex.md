@@ -38,7 +38,7 @@ print(regex.findall("bonjour, voici 11 pommes et 1200 poires. Ainsi que 8 carott
 **\s** = suivit d'un espace,  
 **\w+** = suivit d'un mot (le \w cherche une lettre, le + permet de dire "au moins une lettre")
 
-résultat du print : ['11 pommes', '1200 poires', '8 carottes']
+résultat du print : ```['11 pommes', '1200 poires', '8 carottes']```
 
 ```python
 text = "client : s100, id : '454a5-dsd45-d7s8d-jdkls-fd457'"
@@ -58,4 +58,4 @@ décryptons la regex :
 **|** = OU  
 **\w{5}-** = chaine de 5 caractère suivit d'un -
 
-Le résultat du findall est : [('s100', ''), ('', '454a5-dsd45-d7s8d-jdkls-fd457')]
+Le résultat du findall est : ```[('s100', ''), ('', '454a5-dsd45-d7s8d-jdkls-fd457')]```
