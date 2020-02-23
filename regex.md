@@ -24,6 +24,8 @@ Construire et vérifier regex : https://pythex.org/
 **'(.*)'** = Permet de récupérer ce qui a entre les '  
 **<(.*)>** = Récupère ce qui a entre les chevrons, le met dans un groupe
 
+![](https://github.com/n0xas69/cheatsheet/blob/master/regex.PNG)
+
 
 ```python
 import re
