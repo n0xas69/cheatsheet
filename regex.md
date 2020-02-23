@@ -21,6 +21,8 @@ Construire et vérifier regex : https://pythex.org/
 
 .* = tout ce qui viens après  
 **Prénom:(.*)** = tout ce qui viens après prénom:
+**'(.*)'** = Permet de récupérer ce qui a entre les '
+**<(.*)>** = Récupère ce qui a entre les chevrons, le met dans un groupe
 
 
 ```python
