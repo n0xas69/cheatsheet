@@ -110,3 +110,4 @@ text2 = reg.sub("cindy", text)
 
 print(text2)
 ```
+```salut cindy```
