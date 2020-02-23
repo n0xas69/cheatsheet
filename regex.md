@@ -57,3 +57,5 @@ décryptons la regex :
 **s\d{3}** = un s suivit de 3 chiffres  
 **|** = OU  
 **\w{5}-** = chaine de 5 caractère suivit d'un -
+
+Le résultat du findall est : [('s100', ''), ('', '454a5-dsd45-d7s8d-jdkls-fd457')]
