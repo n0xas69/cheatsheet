@@ -76,6 +76,15 @@ if client == "s100":
 else:
         print("Vous n'êtes pas le bon client")
 ```
+autre moyen plus simple de trouver l'id :
+
+```python
+import re
+
+reg = re.search(r"'(.*)'", "ceci est un test, id : '454a5-dsd45-d7s8d-jdkls-fd457'")
+print(reg.group(1))
+```
+
 décryptons la regex :  
 **s\d{3}** = un s suivit de 3 chiffres  
 **|** = OU  
