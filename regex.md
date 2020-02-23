@@ -76,6 +76,14 @@ if client == "s100":
 else:
         print("Vous n'êtes pas le bon client")
 ```
+
+décryptons la regex :  
+**s\d{3}** = un s suivit de 3 chiffres  
+**|** = OU  
+**\w{5}-** = chaine de 5 caractère suivit d'un -
+
+Le résultat du findall est : ```[('s100', ''), ('', '454a5-dsd45-d7s8d-jdkls-fd457')]```
+
 autre moyen plus simple de trouver l'id :
 
 ```python
@@ -85,9 +93,4 @@ reg = re.search(r"'(.*)'", "ceci est un test, id : '454a5-dsd45-d7s8d-jdkls-fd45
 print(reg.group(1))
 ```
 
-décryptons la regex :  
-**s\d{3}** = un s suivit de 3 chiffres  
-**|** = OU  
-**\w{5}-** = chaine de 5 caractère suivit d'un -
-
-Le résultat du findall est : ```[('s100', ''), ('', '454a5-dsd45-d7s8d-jdkls-fd457')]```
+**'(.*)'** = Permet de récupérer ce qui a entre les ' dans un groupe.
