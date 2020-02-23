@@ -10,7 +10,8 @@ Construire et vérifier regex : https://pythex.org/
 **|** = OU  
 **^** = Commence par  
 **$** = Termine par  
-**^\d** = Commence par un chiffre
+**^\d** = Commence par un chiffre  
+**\d$** = Termine par un chiffre
 
 **\d+** = au moins un chiffre ou plus  
 **\w+** = au moins une lettre au plus (le + signifie "au moins un")
