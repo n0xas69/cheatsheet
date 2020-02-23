@@ -8,8 +8,8 @@ Construire et vérifier regex : https://pythex.org/
 **\S** = pas d'espace  
 **()** = Créer un groupe  
 **|** = OU  
-**^** = Commence par
-**$** = Termine par
+**^** = Commence par  
+**$** = Termine par  
 **^\d** = Commence par un chiffre
 
 **\d+** = au moins un chiffre ou plus  
