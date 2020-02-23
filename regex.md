@@ -39,3 +39,17 @@ print(regex.findall("bonjour, voici 11 pommes et 1200 poires. Ainsi que 8 carott
 
 résultat du print : ['11 pommes', '1200 poires', '8 carottes']
 
+```python
+text = "client : s100, id : '454a5-dsd45-d7s8d-jdkls-fd457'"
+
+regex = re.compile(r"(s\d{3})|(\w{5}-\w{5}-\w{5}-\w{5}-\w{5})") # cherche le client et l'id
+gr = regex.findall(text) # retourne une liste de tuples
+client = gr[0][0] # accède au tuple d'indice 0, et le premier indice du tuple
+id_client = gr[1][1]
+
+if client == "s100":
+        print(f"Voici votre ID : {id_client}")
+else:
+        print("Vous n'êtes pas le bon client")
+```
+
