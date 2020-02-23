@@ -1,3 +1,5 @@
+Construire et vérifier regex : https://pythex.org/
+
 ```python
 import re
 
@@ -26,7 +28,6 @@ gr = rege.findall("bonjour romain et cindy") # le findall renvoi une liste de to
 print(gr)
 ```
 
-Vérifier regex : https://pythex.org/
 
 # Exemples
 ```python
