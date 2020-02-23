@@ -98,3 +98,15 @@ print(reg.group(1))
 ```
 
 **'(.*)'** = Permet de récupérer ce qui a entre les ' dans un groupe.
+
+Remplacer un élément par un autre :
+```python
+import re
+
+text = "salut romain"
+
+reg = re.compile(r"r\w+")
+text2 = reg.sub("cindy", text)
+
+print(text2)
+```
