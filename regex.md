@@ -34,9 +34,9 @@ print(gr)
 regex = re.compile(r"\d+\s\w+")
 print(regex.findall("bonjour, voici 11 pommes et 1200 poires. Ainsi que 8 carottes"))
 ```
-\d+ = trouve un chiffres ou plus  
-\s = suivit d'un espace,  
-\w+ = suivit d'un mot (le \w cherche une lettre, le + permet de dire "au moins une lettre")
+**\d+** = trouve un chiffres ou plus  
+**\s** = suivit d'un espace,  
+**\w+** = suivit d'un mot (le \w cherche une lettre, le + permet de dire "au moins une lettre")
 
 résultat du print : ['11 pommes', '1200 poires', '8 carottes']
 
@@ -54,6 +54,6 @@ else:
         print("Vous n'êtes pas le bon client")
 ```
 décryptons la regex :  
-s\d{3} = un s suivit de 3 chiffres  
-| = OU  
-\w{5}- = chaine de 5 caractère suivit d'un -
+**s\d{3}** = un s suivit de 3 chiffres  
+**|** = OU  
+**\w{5}-** = chaine de 5 caractère suivit d'un -
