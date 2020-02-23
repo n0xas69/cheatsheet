@@ -53,4 +53,7 @@ if client == "s100":
 else:
         print("Vous n'êtes pas le bon client")
 ```
-
+décryptons la regex :
+s\d{3} = un s suivit de 3 chiffres
+| = OU
+\w{5}- = chaine de 5 caractère suivit d'un -
