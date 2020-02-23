@@ -32,11 +32,11 @@ print(regphone.search(text).groups()) # la méthode groups affiche tous les grou
 print(regphone.search(text).group(1)) # On passe le numéro du group en paramètre pour afficher celui qu'on veux
 
 
-reg = re.compile(r"(Je m'appelle)?Romain dusson") # Le ()? permet de dire que le groupe est optionnel
-gr = reg.search("Je m'appelle Romain dusson")
+reg = re.compile(r"(Je m'appelle)?Romain dupont") # Le ()? permet de dire que le groupe est optionnel
+gr = reg.search("Je m'appelle Romain dupont")
 print(gr.group())
 
-gr2 = reg.search("Romain dusson")
+gr2 = reg.search("Romain dupont")
 print(gr2.group())
 
 rege = re.compile(r"romain|cindy") # le | veux dire "ou", dans l'exemple, cindy ou romain
