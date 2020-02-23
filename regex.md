@@ -33,8 +33,8 @@ Vérifier regex : https://pythex.org/
 regex = re.compile(r"\d+\s\w+")
 print(regex.findall("bonjour, voici 11 pommes et 1200 poires. Ainsi que 8 carottes"))
 ```
-\d+ = trouve un chiffres ou plus
-\s = suivit d'un espace,
+\d+ = trouve un chiffres ou plus  
+\s = suivit d'un espace,  
 \w = suivit d'un mot
 
 résultat du print : ['11 pommes', '1200 poires', '8 carottes']
