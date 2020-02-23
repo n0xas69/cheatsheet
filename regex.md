@@ -19,7 +19,7 @@ Construire et vérifier regex : https://pythex.org/
 **\d{2}** = 2 chiffres  
 **\d{2,8}** = entre 2 et 8 chiffres  
 
-**.*** = Tout ce qui viens après
+***.*** = Tout ce qui viens après
 
 
 ```python
