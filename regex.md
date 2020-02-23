@@ -1,5 +1,21 @@
 Construire et vérifier regex : https://pythex.org/
 
+**\d** = un chiffre  
+**\D** = pas de chiffre  
+**\w** = un caractère alpanumérique [0-9a-zA-Z_]  
+**\W** = pas de caractère alphanumérique  
+**\s** = un espace blanc (espace, tab ...)  
+**\S** = pas d'espace  
+**()** = Créer un groupe  
+**|** = OU
+
+**\d+** = au moins un chiffre ou plus  
+**\w+** = au moins une lettre au plus (le + signifie "au moins un")
+
+**\d{2}** = 2 chiffres  
+**\d{2,8}** = entre 2 et 8 chiffres
+
+
 ```python
 import re
 
