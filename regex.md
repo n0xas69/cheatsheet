@@ -17,7 +17,9 @@ Construire et vérifier regex : https://pythex.org/
 **\w+** = au moins une lettre au plus (le + signifie "au moins un")
 
 **\d{2}** = 2 chiffres  
-**\d{2,8}** = entre 2 et 8 chiffres
+**\d{2,8}** = entre 2 et 8 chiffres  
+
+**.*** = Tout ce qui viens après
 
 
 ```python
