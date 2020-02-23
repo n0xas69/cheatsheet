@@ -7,7 +7,10 @@ Construire et vérifier regex : https://pythex.org/
 **\s** = un espace blanc (espace, tab ...)  
 **\S** = pas d'espace  
 **()** = Créer un groupe  
-**|** = OU
+**|** = OU  
+**^** = Commence par
+**$** = Termine par
+**^\d** = Commence par un chiffre
 
 **\d+** = au moins un chiffre ou plus  
 **\w+** = au moins une lettre au plus (le + signifie "au moins un")
