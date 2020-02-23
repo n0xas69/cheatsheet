@@ -20,8 +20,8 @@ Construire et vérifier regex : https://pythex.org/
 **\d{2,8}** = entre 2 et 8 chiffres  
 
 .* = tout ce qui viens après  
-**Prénom:(.*)** = tout ce qui viens après prénom:
-**'(.*)'** = Permet de récupérer ce qui a entre les '
+**Prénom:(.*)** = tout ce qui viens après prénom:  
+**'(.*)'** = Permet de récupérer ce qui a entre les '  
 **<(.*)>** = Récupère ce qui a entre les chevrons, le met dans un groupe
 
 
