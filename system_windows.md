@@ -13,6 +13,16 @@ os.path.join(path, file) # join le path et le nom du fichier pour faire un chemi
 sh.copyfile(os.path.join(path, file_src), os.path.join(path, file_dst)) # copie le contenu du fichier src dans un fichier dst
 ```
 
+## Naviguer dans les dossiers
+```python
+import os
+
+for root, dirs, files in os.walk("C:\Program Files\FileZilla FTP Client"):
+    for file in files:
+        print(file)
+        
+```
+
 ## recherche de fichier par extension
 ```python
 import os
