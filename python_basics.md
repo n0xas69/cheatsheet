@@ -74,20 +74,14 @@ liste.insert(1, "saluut") # insert un élément à l'index spécifié en paramè
 print(liste.count("saluut")) # compte le nombre d'éléments spécifié en paramètre        
 liste.sort(key= lambda x: x["nom"]) # Trier une liste par la valeur d'un dictionnaire
 value_dico = liste[0].values() # accède au valeurs du dictionnaire situé à l'index 0 de la liste, renvoi un type dict_values
-
-```
- ![](https://automatetheboringstuff.com/2e/images/000090.jpg)
- 
-### Compréhension de liste
-[action à faire | pour ces élément | si tel condition]  
-[    n * 2      | for n in maListe |     if n > 3    ]
- 
-
- 
-```python
 maListe = [1, 2, 3, 4, 5]
 len(maListe) # longueur de la liste
 liste.remove(2) # Supprime un élément par sa valeur
+```
+### Compréhension de liste
+[action à faire | pour ces élément | si tel condition]  
+[    n * 2      | for n in maListe |     if n > 3    ]
+```python
 maListe2 = [n * 2 for n in maListe] # multiplie chaque élément de la liste par deux
 maListe3 = [n * 2 for n in maListe if n > 3] # multiplie les éléments supérieur à 3
 ```
