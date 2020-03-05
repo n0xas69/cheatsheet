@@ -97,6 +97,13 @@ dico = {"prénom" : "romain", "nom" : "dupont", "age" : 24}
 print(dico.keys()) # affiche les clés
 print(dico.values()) # affiche les valeurs
 print(dico.items()) # affiche les pairs
+dico.get(key) # récupère la valeur de la clé spécifié
+
+listDico = [{"classe" : "mage", "lvl" : "45"}, {"classe" : "guerrier", "lvl" : "42"}, {"classe" : "guerrier", "lvl" : "50"}]
+
+for dico in listDico:
+    if dico.get("classe") == "guerrier":
+        print("il y a un guerrier niveau " + dico.get("lvl"))
 
 ```
 ### Générateur / expression
