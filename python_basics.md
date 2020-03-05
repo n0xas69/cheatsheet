@@ -102,7 +102,7 @@ for dico in listDico:
 ```
 ### Générateur / expression
 ```python
-maListe = [{"key1": "value1", "key2": "value2"}, {"key1": "value3", "key2": "value4"}, {"key1": "value5", "key2": "value2"}, ]
+maListe = [{"key1": "value1", "key2": "value2"}, {"key1": "value3", "key2": "value4"}, {"key1": "value5", "key2": "value2"}]
 
 # On fait la somme des dico qui on la value2 en clé2 pour chaque dico dans la liste
 test = sum(dic.get("key2") == "value2" for dic in maListe)
