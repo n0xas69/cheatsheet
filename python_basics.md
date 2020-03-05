@@ -99,3 +99,10 @@ print(dico.values()) # affiche les valeurs
 print(dico.items()) # affiche les pairs
 
 ```
+### Générateur / expression
+```python
+maListe = [{"key1": "value1", "key2": "value2"}, {"key1": "value3", "key2": "value4"}, {"key1": "value5", "key2": "value2"}, ]
+
+test = sum(dic.get("key2") == "value2" for dic in maListe)
+print(test)
+```
