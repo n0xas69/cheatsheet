@@ -8,6 +8,7 @@ maVariable2 = "loule"
 print(f"je peux mettre ma variable1 {maVariable1} et une autre {maVariable2}")
 print(r"je peux faire des caractère bizarre genre \n pour qu'il ne le considère pas comme une retour chariot.")
 print("Je peux également utiliser le format pour afficher ma variable {} et {}".format(maVariable1, maVariable2))
+print(f"si je veux mettre des {{salut}} et des variable {maVariable1} je peux")
 ```
 
     je peux mettre ma variable1 kek et une autre loule
