@@ -110,7 +110,8 @@ test = sum(dic.get("key2") == "value2" for dic in maListe)
 print(test)
 ```
 
-## map() / filter() / zip() / reduce()
+
+# map() / filter() / zip() / reduce()
 ```python
 from functools import reduce
 
