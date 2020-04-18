@@ -130,9 +130,6 @@ print(list(map(capitalize, my_pets)))
 my_strings = ['a', 'b', 'c', 'd', 'e']
 my_numbers = [5,4,3,2,1]
 
-def filtre(item):
-  return item > 50
-
 
 new_numbers = sorted(my_numbers)
 print(list(zip(my_strings, new_numbers)))
@@ -140,7 +137,11 @@ print(list(zip(my_strings, new_numbers)))
 
 
 #3 Filter the scores that pass over 50%
+
 scores = [73, 20, 65, 19, 76, 100, 88]
+
+def filtre(item):
+  return item > 50
 
 print(list(filter(filtre, scores)))
 
